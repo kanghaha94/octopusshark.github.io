@@ -1692,6 +1692,7 @@ a:active {
 
 .tm-f20 {
     font-size: 20px;
+    color: #c3d7f9;
 }
 
 .tm-f21 {
@@ -2164,10 +2165,6 @@ a:active {
     .tm-md-f15 {
         font-size: 15px;
         text-align: justify;    
-    }
-
-    .tm-md-f15-1 {
-        font-size: 15px;    
     }
 
     .tm-md-f16 {
@@ -2958,6 +2955,7 @@ a:active {
 
 .tm-lh30 {
     line-height: 30px;
+    text-align: justify;
 }
 
 .tm-lh31 {
@@ -2966,6 +2964,7 @@ a:active {
 
 .tm-lh32 {
     line-height: 32px;
+    text-align: justify;
 }
 
 .tm-lh33 {
@@ -3441,6 +3440,7 @@ a:active {
 
     .tm-md-lh24 {
         line-height: 24px;
+        text-align: justify;
     }
 
     .tm-md-lh25 {
@@ -5896,57 +5896,17 @@ a:active {
     right: 0;
 }
 
-.tm-comparison-table {
-    background-color: #013162;
-    color: #fff;
-    max-width: 830px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.tm-comparison-table thead tr th {
-    background-color: #03468a;
-    font-size: 18px;
-    font-weight: 400;
-    border: none;
-    padding: 16px;
-}
-
-.tm-comparison-table tbody tr td:first-child {
-    background-color: #03468a;
-}
-
-.tm-comparison-table tbody tr td {
-    font-size: 16px;
-    font-weight: 400;
-    padding: 16px;
-    position: relative;
-}
-
-.tm-comparison-table .table {
-    margin-bottom: 0;
-}
-
 .tm-blank {
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #46f2d4;
     width: 13px;
     height: 13px;
     display: block;
 }
 
-.tm-comparison-table .tm-blank {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
 /*Token Sale*/
 .tm-section-heading.tm-style1.tm-color2 .tm-section-heading-right:before {
-    background-color: #fff;
+    background-color: #c3d7f9;
 }
 
 .tm-token-distribution {
@@ -5965,6 +5925,7 @@ a:active {
     padding: 0;
     list-style: none;
     margin: 0;
+    color: #c3d7f9;
 }
 
 .tm-token-distribution-list li {
@@ -5994,17 +5955,10 @@ a:active {
     background-color: #E2E1E1;
 }
 
-.tm-blank.tm-token-color4 {
-    background-color: #4972b8;
-}
-
-.tm-blank.tm-token-color5 {
-    background-color: #fec00f;
-}
-
 .tm-token-distribution-list .tm-blank,
 .tm-token-distribution-list .tm-percentage {
     margin-right: 10px;
+    color: #c3d7f9;
 }
 
 .tm-sp-token-distribution {
@@ -6013,6 +5967,7 @@ a:active {
 
 .tm-token-distribution-left {
     padding-right: 20px;
+    color: #c3d7f9;
 }
 
 /*Road Map*/
@@ -7793,6 +7748,7 @@ a:active {
 
     .tm-token-distribution-list li:not(:last-child) {
         margin-bottom: 20px;
+        color: #c3d7f9;
     }
 
     .tm-section-heading.tm-style2 {
@@ -8216,7 +8172,7 @@ a:active {
 }
 
 .tm-green-color .tm-section-heading-right:before {
-    background-color: #77d102;
+    background-color: #c3d7f9;
 }
 
 .tm-green-color .tm-single-work {
@@ -8256,7 +8212,7 @@ a:active {
 }
 
 .tm-green-color .tm-ocher-work .tm-section-heading-right h2 {
-    color: #77d102;
+    color: #c3d7f9;
 }
 
 .tm-green-color .tm-comparison-table thead tr th {
@@ -8267,111 +8223,6 @@ a:active {
 .tm-green-color .tm-comparison-table tbody tr td:first-child {
     background-color: #013310;
     color: #fff;
-}
-
-.tm-green-color .table-bordered td,
-.tm-green-color .table-bordered th {
-    border: 1px solid #01441b;
-    background-color: #013713;
-    color: #8ae1ad;
-}
-
-.tm-green-color .table-bordered {
-    border: 1px solid #01441b;
-}
-
-.tm-green-color .tm-blank {
-    background-color: #8ae1ad;
-}
-
-.tm-green-color .tm-token-distribution-left {
-    padding-right: 0px;
-    min-width: 300px;
-}
-
-.tm-green-color .tm-sp-token-distribution {
-    padding-right: 0px;
-    padding: 0 50px;
-}
-
-.tm-green-color .tm-token-distribution-right {
-    padding: 0px;
-}
-
-.tm-green-color .tm-bounty h2 {
-    color: #fff;
-}
-
-.tm-green-color .tm-bounty h2 span {
-    color: #77d102;
-}
-
-.tm-green-color .tm-token-distribution-list li {
-    color: #77d102;
-}
-
-.tm-green-color .tm-green-token-color1 .tm-blank.tm-token-color1 {
-    background-color: #fdc10f;
-}
-
-.tm-green-color .tm-green-token-color1 .tm-blank.tm-token-color2 {
-    background-color: #f57d20;
-}
-
-.tm-green-color .tm-green-token-color1 .tm-blank.tm-token-color3 {
-    background-color: #f9e607;
-}
-
-.tm-green-color .tm-green-token-color1 .tm-blank.tm-token-color4 {
-    background-color: #63a5da;
-}
-
-.tm-green-color .tm-green-token-color1 .tm-blank.tm-token-color5 {
-    background-color: #35a7a1;
-}
-
-.tm-green-color .tm-green-token-color2 .tm-blank.tm-token-color1 {
-    background-color: #199ed6;
-}
-
-.tm-green-color .tm-green-token-color2 .tm-blank.tm-token-color2 {
-    background-color: #6b469c;
-}
-
-.tm-green-color .tm-green-token-color2 .tm-blank.tm-token-color3 {
-    background-color: #f05139;
-}
-
-.tm-green-color .tm-green-token-color2 .tm-blank.tm-token-color4 {
-    background-color: #f68b1f;
-}
-
-.tm-green-color .tm-green-token-color2 .tm-blank.tm-token-color5 {
-    background-color: #f4d230;
-}
-
-.tm-green-color .tm-green-token-color3 .tm-blank.tm-token-color1 {
-    background-color: #1f7cb5;
-}
-
-.tm-green-color .tm-green-token-color3 .tm-blank.tm-token-color2 {
-    background-color: #65c280;
-}
-
-.tm-green-color .tm-green-token-color3 .tm-blank.tm-token-color3 {
-    background-color: #fbd650;
-}
-
-.tm-green-color .tm-green-token-color3 .tm-blank.tm-token-color4 {
-    background-color: #ef6540;
-}
-
-.tm-green-color .tm-green-token-color3 .tm-blank.tm-token-color5 {
-    background-color: #865ecb;
-}
-
-.tm-green-color .tm-green-token-color3 .tm-blank.tm-token-color6 {
-    background-color: #68dbdc;
 }
 
 .tm-green-color .tm-countdown-wrap.tm-style1 {
@@ -8811,39 +8662,6 @@ a:active {
     }
 }
 
-.tm-green-color .mailchimp input {
-    border: 1px solid #77d102;
-    color: #fff;
-}
-
-.tm-green-color .mailchimp input::-webkit-input-placeholder {
-    color: #fff;
-}
-
-.tm-green-color .mailchimp input::-moz-placeholder {
-    color: #fff;
-}
-
-.tm-green-color .mailchimp input:-ms-input-placeholder {
-    color: #fff;
-}
-
-.tm-green-color .mailchimp input:-moz-placeholder {
-    color: #fff;
-}
-
-.tm-green-color .accordian-head:before {
-    background: #77d102;
-}
-
-.tm-green-color .tm-site-footer {
-    background-image: initial;
-    background-color: #013716;
-}
-
-.tm-green-color .tm-copyright {
-    border-top: 1px dotted #77d102;
-}
 
 .tm-green-color .tm-social-btn {
     position: relative;
@@ -9036,6 +8854,7 @@ a:active {
 
 .tm-token-distribution-list.list-two {
     padding-left: 80px;
+    color: #c3d7f9;
 }
 
 .tm-overflow-hidden {
@@ -9088,10 +8907,12 @@ a:active {
 
     .tm-token-distribution-list li:not(:last-child) {
         margin-bottom: 15px;
+        color: #c3d7f9;
     }
 
     .tm-green-color .tm-token-distribution>div:first-child {
         margin-bottom: 35px;
+        color: #c3d7f9;
     }
 
     .tm-green-color .tm-primary-nav-list .menu-item>.nav-link.active {
@@ -9104,6 +8925,7 @@ a:active {
 
     .tm-token-distribution-list.list-one {
         padding-left: 80px;
+        color: #c3d7f9;
     }
 
     .tm-footer-bar.tm-style1,
@@ -9385,7 +9207,7 @@ body.tm-purple-color {
 }
 
 .tm-purple-color .tm-section-heading-left h2 {
-    color: #fff;
+    color: #46f2d4;
 }
 
 .tm-purple-color .tm-section-heading-right:before {
@@ -9440,7 +9262,7 @@ body.tm-purple-color {
 }
 
 .tm-purple-color .tm-token-sale .tm-section-heading-left h2 {
-    color: #fff;
+    color: #46f2d4;
 }
 
 .tm-purple-color .tm-dark-blue-bg {
@@ -9692,7 +9514,7 @@ body.tm-purple-color {
 }
 
 .tm-purple-color .tm-faq-wrap>.tm-light-blue-c {
-    color: #fff;
+    color: #c3d7f9;
 }
 
 .tm-purple-color .tm-roadmap-wrap .tm-section-heading.tm-style2 h2 {
@@ -10050,7 +9872,7 @@ body.tm-orange-color {
 
 
 .tm-orange-color .tm-section-heading-right:before {
-    background-color: #893c2e;
+    background-color: #c3d7f9;
 }
 
 .tm-orange-color .tm-countdown-wrap.tm-style1 {
@@ -10291,7 +10113,7 @@ body.tm-orange-color {
 }
 
 .tm-orange-color .tm-section-heading.tm-style1.tm-color2 .tm-section-heading-right:before {
-    background-color: #fc5f3c;
+    background-color: #c3d7f9;
 }
 
 .tm-orange-color .tm-light-blue-c {
@@ -10723,7 +10545,7 @@ launch screen
     left: 0;
     width: 100%;
     height: 100%;
-    background: #000000;
+    background: #154270;
     display: flex;
     justify-content: center;
     align-items: center;
