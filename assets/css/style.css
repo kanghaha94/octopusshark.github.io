@@ -26,6 +26,7 @@ body {
     line-height: 24px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden !important;
 }
 
 button {
@@ -4659,7 +4660,7 @@ a:active {
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    background-color: #fff;
+    background-color: c3d7f9;
     top: 0;
 }
 
@@ -4885,7 +4886,7 @@ a:active {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #fff;
+    color: c3d7f9;
     text-transform: uppercase;
     position: relative;
 }
@@ -4942,7 +4943,7 @@ a:active {
 .m-menu-btn span:after {
     width: 25px;
     height: 2px;
-    background-color: #fff;
+    background-color: #c3d7f9;
     display: block;
 }
 
@@ -9224,30 +9225,30 @@ a:active {
 }
 
 body.tm-purple-color {
-    color: #fff;
+    color: #c3d7f9;
 }
 
 .tm-purple-color .tm-btn {
-    background-color: #8547e2;
-    border: 1px solid #8547e2;
+    background-color: #475ce2;
+    border: 1px solid #475ce2;
 }
 
 .tm-purple-color .tm-btn:before,
 .tm-purple-color .tm-btn:after {
-    border-color: #8547e2;
+    border-color: #5447e2;
 }
 
 .tm-purple-color .tm-btn:hover {
-    color: #8547e2;
-    background-color: rgba(47, 5, 87, 0.8);
+    color: #2316b9;
+    background-color: rgba(5, 12, 87, 0.8);
 }
 
 .tm-purple-color .tm-with-border.tm-btn {
-    background-color: rgba(47, 5, 87, 0.75);
+    background-color: rgba(10, 15, 54, 0.922);
 }
 
 .tm-purple-color .tm-with-border.tm-btn:hover {
-    background-color: rgba(47, 5, 87, 0.8);
+    background-color: rgba(21, 5, 87, 0.8);
 }
 
 .tm-purple-color .tm-ethereum {
@@ -9258,15 +9259,15 @@ body.tm-purple-color {
 }
 
 .tm-purple-color .tm-header-menu {
-    background-color: rgb(0, 0, 0, 0.302);
+    background-color: #001a33;
 }
 
 .tm-purple-color .tm-site-header.small-height .tm-header-menu {
-    background-color: #1e0139;
+    background-color: #001a33;
 }
 
 .tm-purple-color .tm-primary-nav .menu-item>a {
-    color: #8547e2;
+    color: #21417a;
 }
 
 .tm-purple-color .tm-primary-nav .menu-item>.nav-link:before {
@@ -9282,30 +9283,30 @@ body.tm-purple-color {
 }
 
 .tm-purple-color .tm-active-language {
-    color: #8547e2;
+    color: #c3d7f9;
 }
 
 .tm-purple-color .tm-site-header .tm-with-border.tm-btn {
     background-color: transparent;
-    color: #8547e2;
+    color: #c3d7f9;
 }
 
 .tm-purple-color .tm-site-header .tm-with-border.tm-btn:hover {
-    background-color: rgba(47, 5, 87, 0.75);
+    background-color: #0a2d4ddb;
 }
 
 .tm-purple-color .tm-lenguage-dropdown {
-    border: 1px solid #8547e2;
-    background-color: #1e0139;
+    border: 1px solid #46f2d4;
+    background-color: #46f2d4;
 }
 
 .tm-purple-color .tm-lenguage-dropdown a {
-    color: #8547e2;
+    color: #46f2d4;
 }
 
 .tm-purple-color .tm-lenguage-dropdown a:hover {
-    color: #8547e2;
-    background-color: rgba(133, 71, 226, 0.1);
+    color: #46f2d4;
+    background-color: #46f2d4;
 }
 
 .tm-purple-color .tm-fix-bar ul li a.active {
@@ -9321,33 +9322,33 @@ body.tm-purple-color {
 }
 
 .tm-purple-color .tm-fix-bar ul li a {
-    border: 2px solid #7711bd;
+    border: 2px solid #184875;
 }
 
 .tm-purple-color .tm-fix-bar ul li a:before {
-    background-color: #7711bd;
+    background-color: #184875;
 }
 
 .tm-purple-color .tm-about-wrap {
-    background-color: #1e0139;
+    background-image: linear-gradient(#0a1e4a,#0f2962);
 }
 
 .tm-purple-color .tm-countdown-wrap.tm-style1 .tm-countdown-bg {
-    border: 1px solid #2b034d;
-    background-color: #2b034d;
+    border: 1px solid #184875;
+    background-color: #184875;
 }
 
 .tm-purple-color .tm-countdown-wrap.tm-style1:before,
 .tm-purple-color .tm-countdown-wrap.tm-style1:after {
-    border-color: #8547e2;
+    border-color: #184875;
 }
 
 .tm-purple-color .tm-light-blue-c {
-    color: #8547e2;
+    color: #184875;
 }
 
 .tm-purple-color .tm-token-status-bar-in {
-    background-color: #8547e2;
+    background-color: #184875;
 }
 
 .tm-purple-color .tm-token-status-bar span:before {
@@ -9376,7 +9377,7 @@ body.tm-purple-color {
 }
 
 .tm-purple-color .tm-ocher-work {
-    background-color: #1e0139;
+    background-image:linear-gradient(#0f2962, #0a1f4d);
 }
 
 .tm-purple-color .tm-section-heading-left h2 {
@@ -9392,15 +9393,15 @@ body.tm-purple-color {
 }
 
 .tm-purple-color .tm-single-work {
-    border-top: 2px solid #8547e2;
+    border-top: 2px solid #5447e2;
 }
 
 .tm-purple-color .tm-single-work:before,
 .tm-purple-color .tm-single-work:after {
-    background: -webkit-gradient(linear, left top, left bottom, from(#8547e2), to(transparent));
-    background: -webkit-linear-gradient(#8547e2, transparent);
-    background: -o-linear-gradient(#8547e2, transparent);
-    background: linear-gradient(#8547e2, transparent);
+    background: -webkit-gradient(linear, left top, left bottom, from(#5447e2), to(transparent));
+    background: -webkit-linear-gradient(#5447e2, transparent);
+    background: -o-linear-gradient(#5447e2, transparent);
+    background: linear-gradient(#5447e2, transparent);
 }
 
 .tm-purple-color .tm-single-work-icon {
@@ -9427,7 +9428,7 @@ body.tm-purple-color {
 }
 
 .tm-purple-color .tm-token-sale {
-    background-color: #240245;
+    background-image:linear-gradient(#0a1f4d, #07173a)
 }
 
 .tm-purple-color .tm-token-sale .tm-light-blue-c {
@@ -9443,27 +9444,27 @@ body.tm-purple-color {
 }
 
 .tm-purple-color .tm-roadmap-wrap {
-    background-color: #220240;
+    background-image:linear-gradient( #07173a,#030f27);
     position: relative;
 }
 
 .tm-purple-color .tm-roadmap-text {
-    border-top: 2px solid #8547e2;
-    background-color: #240245;
+    border-top: 2px solid #3c6df3;
+    background-color: #46f2d4;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
 .tm-purple-color .tm-roadmap-text:before,
 .tm-purple-color .tm-roadmap-text:after {
-    background: -webkit-gradient(linear, left top, left bottom, from(#8547e2), to(transparent));
-    background: -webkit-linear-gradient(#8547e2, transparent);
-    background: -o-linear-gradient(#8547e2, transparent);
-    background: linear-gradient(#8547e2, transparent);
+    background: -webkit-gradient(linear, left top, left bottom, from(#46f2d4), to(transparent));
+    background: -webkit-linear-gradient(#46f2d4, transparent);
+    background: -o-linear-gradient(#46f2d4, transparent);
+    background: linear-gradient(#46f2d4, transparent);
 }
 
 .tm-purple-color .tm-member h2 {
-    color: #fff;
+    color: #c3d7f9;
 }
 
 .tm-purple-color .tm-member-card-in {
@@ -9525,7 +9526,7 @@ body.tm-purple-color {
 .tm-purple-color .tm-social-btn span {
     background: transparent;
     border: none;
-    color: #8547e2;
+    color: #5447e2;
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
@@ -9540,19 +9541,19 @@ body.tm-purple-color {
 }
 
 .tm-purple-color .tm-token-wrap .tm-token-heading {
-    color: #fff;
+    color: #c3d7f9;
 }
 
 .tm-purple-color .tm-token-list {
-    border-left: 1px solid #8547e2;
+    border-left: 1px solid #5447e2;
 }
 
 .tm-purple-color .tm-token-bar {
-    background-color: #8547e2;
+    background-color: #5447e2;
 }
 
 .tm-purple-color .tm-bar-circle {
-    border: 1px solid #8547e2;
+    border: 1px solid #5447e2;
     background-color: transparent;
 }
 
@@ -9566,12 +9567,12 @@ body.tm-purple-color {
 }
 
 .tm-purple-color .tab-links li a {
-    background-color: #240245;
+    background-color: #080342;
     color: #ffffff;
 }
 
 .tm-purple-color .tab-links {
-    background-color: #240245;
+    background-color: #080342;
 }
 
 .tm-purple-color .tab-links li.active a {
@@ -9652,7 +9653,7 @@ body.tm-purple-color {
 }
 
 .tm-purple-color #scrollup {
-    background-color: #7711bd;
+    background-color: #184B9F;
 }
 
 .tm-purple-color .tm-top-footer .tm-footer-bar {
@@ -10624,32 +10625,91 @@ body.tm-orange-color {
 /*--------------------------------------------------------------
 back video
 --------------------------------------------------------------*/
-.video {
-    object-fit: contain;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
 .back-video{
-    width: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    padding: -70;
+    padding-bottom: -70px;
     z-index: -1;
-    object-fit: cover;
     background-color: #0F204A;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
 }
 
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
 /*--------------------------------------------------------------
-back video
+Bubble
+--------------------------------------------------------------*/
+
+.bubbles img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:relative;
+    bottom: -70px;
+}
+
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+       
+        opacity: 1;
+    }
+    70%{
+       
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 15px;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 0.2s;
+    width: 20px;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 2s;
+    width: 25px;
+}
+.bubbles img:nth-child(5){
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(6){
+    animation-delay: 4s;
+    width: 15px;
+}
+.bubbles img:nth-child(7){
+    animation-delay: 2s;
+}
+/*--------------------------------------------------------------
+my-img
 --------------------------------------------------------------*/
 .my-img{
     animation: rotateImg 60s linear infinite;
