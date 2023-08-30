@@ -30,6 +30,12 @@
 
 <body data-spy="scroll" data-target=".tm-section-active" class="tm-purple-color">
     <!-- Start Preloader -->
+    <div class="launch-screen">
+        <video autoplay loop muted plays-inline class="launch-video">
+            <source src="assets/img/intro.webm" type="video/webm">
+        </video>
+        <img src="assets/img/intro.gif" alt="Loading..." class="launch-gif">
+    </div>
     <!-- End Preloader -->
     <!-- Start Site Header Wrap -->
     <header class="tm-site-header">
@@ -72,7 +78,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="tm-hero-text">
-                        <h1 class="tm-hero-title tm-white-c tm-f42 tm-lg-f38 tm-fw-medium tm-m0 tm-lh60 col-xs-t-14 tm-md-f30 tm-md-lh40">Artificial Intelligence<br>Cryptocurrency Trading</h1>
+                        <h1 class="tm-hero-title tm-white-c tm-f42 tm-lg-f38 tm-fw-medium tm-m0 tm-lh60 col-xs-t-14 tm-md-f30 tm-md-lh40">Artificial Intelligence <br> cryptocurrency trading
+                        </h1>
                         <div class="empty-space col-xs-b10"></div>
                         <h2 class="tm-hero-sub-title tm-white-c tm-f24 tm-m0 tm-lh36 tm-md-f18 tm-md-lh26">Expertly engineered Ai automated bots <br> That specialized in Margin, Future and <br> Martingales trading</h2>
                         <div class="empty-space col-xs-b25"></div>
@@ -99,7 +106,6 @@
     <section class="tm-about-wrap" id="about">
         <div class="empty-space col-md-b90 col-xs-b55"></div>
         <div class="container">
-            <div class='particle-network-animation'></div>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="tm-countdown-outer">
@@ -589,6 +595,7 @@
     <script src="assets/js/mailchimp.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/modal.video.min.js"></script>
+    <script src="assets/js/launcher.js"></script>
     <script src="assets/js/particles.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
